@@ -7,7 +7,7 @@
 
 ## Overview
 
-This add-on integrates Tablepro into your [DDEV](https://ddev.com/) project.
+This add-on integrates [Tablepro](https://tablepro.app/) into your [DDEV](https://ddev.com/) project.
 
 ## Installation
 
@@ -20,10 +20,10 @@ After installation, make sure to commit the `.ddev` directory to version control
 
 ## Usage
 
-| Command | Description |
-| ------- | ----------- |
-| `ddev describe` | View service status and used ports for Tablepro |
-| `ddev logs -s tablepro` | Check Tablepro logs |
+| Command                 | Description                                     |
+| ----------------------- | ----------------------------------------------- |
+| `ddev describe`         | View service status and used ports for Tablepro |
+| `ddev logs -s tablepro` | Check Tablepro logs                             |
 
 ## Advanced Customization
 
@@ -39,8 +39,8 @@ Make sure to commit the `.ddev/.env.tablepro` file to version control.
 
 All customization options (use with caution):
 
-| Variable | Flag | Default |
-| -------- | ---- | ------- |
+| Variable                | Flag                      | Default                      |
+| ----------------------- | ------------------------- | ---------------------------- |
 | `TABLEPRO_DOCKER_IMAGE` | `--tablepro-docker-image` | `ddev/ddev-utilities:latest` |
 
 ## Credits
